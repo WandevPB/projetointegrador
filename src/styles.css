@@ -1,0 +1,129 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Para garantir que o GIF cubra toda a tela */
+    background: url('Utils/banner.gif') center no-repeat;
+    background-size: cover;
+}
+
+.transparent-box.cadastro {
+    width: 100%;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+.transparent-box.cadastro input {
+    width: 100%;
+    margin-right: 200px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.transparent-box {
+    background-color: rgba(31, 28, 28, 0.897);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    height: 80%;
+    background-color: #87ceeb;
+    left: 50%;
+    margin: auto;
+    transform: translateX(-50%);
+}
+
+.nota-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nota-box .info,
+.nota-box .input {
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    position: relative;
+    width: calc(100% - 15px);
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #fff;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #87ceeb;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-secondary,
+.btn-link {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.btn-success {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #0d6efd;
+}
